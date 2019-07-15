@@ -1,14 +1,31 @@
 {
-    "name": "pxt-text",
+    "name": "pxt-test2",
     "version": "0.0.0",
     "description": "",
     "dependencies": {
         "core": "*",
-        "radio": "*"
+		"neopixel": "github:Haohaodada-official/pxt-neopixel#v0.6.12"
     },
     "files": [
         "README.md",
-        "main.ts"
+        "main.ts",
+		"enums.d.ts",
+		"main.cpp",
+        "ir.cpp",
+		"SSD1306_OLED.cpp",
+        "ReceiverIR.cpp",
+        "ReceiverIR.h",
+        "RemoteIR.h",
+		"TransmitterIR.cpp",
+        "TransmitterIR.h",
+		"Adafruit_SSD1306.h",
+        "Adafruit_SSD1306.cpp",
+        "Adafruit_GFX.h",
+        "Adafruit_GFX.cpp",
+        "Adafruit_GFX_Config.h",
+        "glcdfont.h"
+
+		
     ],
     "testFiles": [
         "test.ts"
